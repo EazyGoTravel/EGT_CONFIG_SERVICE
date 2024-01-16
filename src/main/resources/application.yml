@@ -1,0 +1,21 @@
+spring:
+  cloud:
+    config:
+        server:
+            git:
+                uri: https://github.com/Neeharkakulla/EGT_CONFIGURATION.git
+                default-label: main 
+  application:
+    name: egt-config-server
+       
+server:
+    port: 9696
+    
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
+  instance:
+    hostname: local
+    preferIpAddress: false 
+
