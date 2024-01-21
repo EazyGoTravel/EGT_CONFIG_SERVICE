@@ -5,7 +5,7 @@ spring:
     config:
         server:
             git:
-                uri: https://github.com/Neeharkakulla/EGT_CONFIGURATION.git
+                uri: https://github.com/EazyGoTravel/EGT_CONFIGURATION.git
                 default-label: main   
 server:
     port: 9696
